@@ -28,6 +28,12 @@ Regulatory Compliance: Align with the Financial Conduct Authority (FCA) guidelin
 Operational Efficiency: Reduce false positives and detection time, enhancing customer trust and satisfaction.
 Cost-Effectiveness: Utilize BitNet's resource-efficient model to minimize infrastructure costs.​
 
+3. Objectives
+
+Accuracy: Achieve a fraud detection accuracy rate of at least 95%.
+Latency: Ensure real-time processing with a latency of less than 200 milliseconds per transaction.
+Scalability: Design the system to handle up to 10,000 transactions per second.
+Compliance: Incorporate features to support FCA reporting and GDPR compliance.​
 
 
 

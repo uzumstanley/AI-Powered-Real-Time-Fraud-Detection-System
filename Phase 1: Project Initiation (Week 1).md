@@ -26,3 +26,9 @@ Financial Institutions: Potential end-users of the fraud detection system.
 Regulatory Bodies: Ensure compliance with FCA and GDPR standards.
 Data Providers: Sources of transactional data for model training and testing.
 Academic Advisors: Provide guidance on model development and evaluation.​
+
+2.2 Engagement Plan
+
+Week 1: Identify and list potential stakeholders.
+Week 2: Initiate contact and schedule meetings to gather requirements and feedback.
+Ongoing: Maintain regular communication to ensure alignment with stakeholder expectations.​

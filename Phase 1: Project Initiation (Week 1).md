@@ -55,7 +55,19 @@ Project Charter: Document outlining the project's purpose, objectives, and stake
 Stakeholder Register: List of identified stakeholders with contact information and roles.
 Regulatory Compliance Checklist: Initial checklist to ensure adherence to FCA and GDPR requirements.​
 
+📂 Repository Structure Suggestion
 
+
+/AI-Fraud-Detection-BitNet
+├── README.md
+├── docs/
+│   ├── Project_Charter.md
+│   ├── Stakeholder_Register.md
+│   └── Compliance_Checklist.md
+├── data/
+├── models/
+├── src/
+└── tests/
 
 
 

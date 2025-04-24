@@ -35,6 +35,12 @@ Latency: Ensure real-time processing with a latency of less than 200 millisecond
 Scalability: Design the system to handle up to 10,000 transactions per second.
 Compliance: Incorporate features to support FCA reporting and GDPR compliance.​
 
+4. High-Level Project Requirements
+
+Data Ingestion Module: Capable of real-time transaction data collection and preprocessing.
+AI Model Integration: Implement BitNet b1.58 2B4T for efficient fraud detection.
+User Interface: Develop dashboards for monitoring, alerts, and reporting.
+Security Measures: Ensure data encryption, access controls, and audit trails.​
 
 
 

@@ -41,3 +41,54 @@ Objective: Ensure the system meets the Financial Conduct Authority's standards f
 Actions:
 Review FCA's Handbook, focusing on sections related to financial crime and fraud.
 Incorporate necessary features to facilitate compliance reporting.​
+
+3.2 GDPR Considerations
+
+Objective: Ensure the system handles personal data in compliance with the General Data Protection Regulation.
+Actions:
+Implement data anonymization techniques where applicable.
+Establish protocols for data storage, access, and deletion.​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

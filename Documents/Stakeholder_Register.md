@@ -1,88 +1,80 @@
-# Hybrid RAG Application
+Certainly! Here's a comprehensive **Stakeholder Register** tailored for your AI-Powered Real-Time Fraud Detection System using BitNet b1.58 2B4T. This register is designed to reflect a real-world scenario, incorporating stakeholders relevant to financial institutions in London and ensuring alignment with UK regulations.
 
-This project implements a **Hybrid Retrieval-Augmented Generation (RAG)** application using Streamlit for the user interface. It integrates OpenAI's GPT models with vector-based retrieval methods (using Chroma and BM25) to answer user queries based on a provided context. The application also evaluates the relevance of retrieved context using Athina's evaluation framework.
+---
 
-## Project Structure
+# 📄 Stakeholder_Register.md
 
+**Project Name:** AI-Powered Real-Time Fraud Detection System  
+**Project Manager:** [Your Name]  
+**Date:** April 24, 2025  
+**Version:** 1.0
+
+---
+
+## 🧾 Stakeholder Register Table
+| Stakeholder Name       | Role/Title                          | Category  | Organization                     | Influence Level | Interest Level | Communication Method | Contact Information           | Notes                                                                 |
+|------------------------|-------------------------------------|-----------|----------------------------------|-----------------|----------------|----------------------|-------------------------------|-----------------------------------------------------------------------|
+| Sarah Thompson         | Chief Risk Officer                  | Internal  | London FinTech Bank              | High            | High           | Email, Meetings      | sarah.thompson@londonfintech.com | Key decision-maker for risk management strategies.                    |
+| James Patel            | Head of Compliance                  | Internal  | London FinTech Bank              | High            | High           | Email, Reports       | james.patel@londonfintech.com    | Ensures adherence to FCA and GDPR regulations.                        |
+| Emily Chen             | Data Protection Officer             | Internal  | London FinTech Bank              | Medium          | High           | Email                | emily.chen@londonfintech.com     | Oversees data privacy and protection measures.                        |
+| Michael O'Connor       | IT Security Manager                 | Internal  | London FinTech Bank              | Medium          | Medium         | Meetings             | michael.oconnor@londonfintech.com | Responsible for system security and integration.                      |
+| Financial Conduct Authority (FCA) | Regulatory Body                     | External  | UK Government                    | High            | High           | Official Reports     | contact@fca.org.uk               | Regulatory authority overseeing financial compliance.                 |
+| Data Protection Authority (ICO)   | Regulatory Body                     | External  | UK Government                    | High            | High           | Official Reports     | contact@ico.org.uk               | Ensures compliance with data protection laws.                         |
+| Olivia Martinez        | Customer Representative             | External  | London FinTech Bank              | Low             | Medium         | Surveys, Feedback    | olivia.martinez@example.com      | Provides user feedback on system usability.                           |
+| Rajesh Singh           | Project Sponsor                     | Internal  | London FinTech Bank              | High            | High           | Meetings, Reports    | rajesh.singh@londonfintech.com   | Provides funding and strategic direction for the project.             |
+| Sophia Williams        | Legal Advisor                       | Internal  | London FinTech Bank              | Medium          | High           | Email, Meetings      | sophia.williams@londonfintech.com | Advises on legal implications and contract matters.                   |
+| Liam Johnson           | Marketing Manager                   | Internal  | London FinTech Bank              | Low             | Medium         | Email                | liam.johnson@londonfintech.com   | Plans communication strategies for system rollout.                   |
+
+---
+
+## 🗂️ Stakeholder Analysis Summary
+
+- **High Influence & High Interest:* Sarah Thompson, James Patel, Rajesh Singh, FCA, CO
+- **Medium Influence & High Interest:* Emily Chen, Sophia Willims
+- **Medium Influence & Medium Interest:* Michael O'Conor
+- **Low Influence & Medium Interest:* Olivia Martinez, Liam Johnon
+
+---
+
+## 📬 Communication Plan
+
+- **Weekly Updates** Sarah Thompson, James Patel, Rajesh Sngh
+- **Bi-Weekly Meetings** Emily Chen, Michael O'Connor, Sophia Willams
+- **Monthly Reports** FCA,ICO
+- **User Feedback Sessions** Olivia Martnez
+- **Marketing Briefings** Liam Johson
+
+---
+
+## 🔐 Data Protection Considerations
+
+- **Data Minimizatio:** Only essential stakeholder information is collected and stred.
+- **Consen:** Explicit consent obtained for storing and processing stakeholder ata.
+- **Access Contro:** Stakeholder register access restricted to authorized personel.
+- **Data Retentio:** Stakeholder data will be reviewed bi-annually and deleted upon project completion unless otherwise requred.
+- **Right to Access and Rectificatio:** Stakeholders can request access to their data and request corrections as neded.
+
+---
+
+## 📁 Repository Structure Suggestion
+
+``
+
+
+/AI-Fraud-Detection-BitNet
+├── README.md
+├── docs/
+│   ├── Project_Charter.md
+│   ├── Stakeholder_Register.md
+│   └── Compliance_Checklist.md
+├── data/
+├── models/
+├── src/
+└── ests/
 ```
-hybrid_rag_app/
-├── app.py                # Main Streamlit app file
-├── context.csv           # Sample data file
-├── requirements.txt      # Python package dependencies
-```
 
-### 1. `requirements.txt`
-This file lists all the Python packages required for the app to function:
+
 
-```txt
-streamlit
-langchain
-langchain-openai
-chromadb
-datasets
-pandas
-athina
-rank_bm25
-google-generativeai
-```
+---
 
-### 2. `context.csv`
-This file contains the context data used to answer queries. The context is divided into chunks for efficient retrieval. Here's an example of how the file might look:
-
-```csv
-text
-"MacConkey agar is a selective and differential culture medium for bacteria..."
-"zoonotic disease since around 1910, but in the 1930s knowledge was gained..."
-"medium was developed by Alfred Theodore MacConkey while working as a bacteriologist..."
-...
-```
-
-### 3. `app.py`
-This is the main Streamlit app file that implements the logic for RAG, context retrieval, and evaluation. The app allows users to input queries, retrieve relevant context, generate responses using GPT models, and evaluate the context relevance.
-
-#### Key Features:
-- **Retrieval**: Uses both vector retrieval (Chroma) and keyword-based retrieval (BM25).
-- **Generation**: Generates answers using GPT models.
-- **Evaluation**: Uses Athina's evaluation framework to assess context relevance.
-
-
-
-## How to Run
-
-1. **Save the Files**: Place `requirements.txt`, `app.py`, and `context.csv` in the same folder called `hybrid_rag_app`.
-
-2. **Install Dependencies**:
-   Open the terminal, navigate to the `hybrid_rag_app` folder, and run the following command:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit App**:
-   From the same directory, run:
-   ```bash
-   streamlit run app.py
-   ```
-
-   This will start the Streamlit app and open it in your browser.
-
-## Key Notes
-
-- **API Keys**: Ensure you set up the `OPENAI_API_KEY` and `ATHINA_API_KEY` in the `secrets.toml` file or through the Streamlit Cloud secrets management. Replace the placeholders with your actual API keys.
-  
-- **Context Data**: The `context.csv` file contains the context for answering user queries. Ensure that this file is in the correct directory.
-
-- **Evaluation**: The app also evaluates the relevance of the retrieved context using the Athina framework and displays the evaluation results in a table.
-
-## Important Considerations
-
-- **Caching**: The `@st.cache_resource()` decorator is used to cache the results of the `initialize_rag` function to improve performance.
-
-- **Secrets Management**: Store your API keys securely using Streamlit's secrets management to avoid hardcoding sensitive information.
-
-## Future Enhancements
-
-- Add more complex retrieval techniques like using FAISS or Elasticsearch for large-scale data.
-- Implement additional evaluation metrics beyond context relevancy.
-- Add a more dynamic UI with filters and advanced search options.
-
-Let me know if you have any questions or need further modifications!
+Feel free to customize this register further to suit your project's specific needs. Let me know if you require assistance with subsequent phases or any other aspect of your project! 

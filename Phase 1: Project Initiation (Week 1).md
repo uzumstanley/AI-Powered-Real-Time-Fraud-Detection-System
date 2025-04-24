@@ -17,3 +17,12 @@ Measurable: Achieve a false positive rate below 2% and a detection accuracy abov
 Achievable: Utilize existing datasets and BitNet's architecture to meet performance benchmarks.
 Relevant: Address the pressing need for efficient fraud detection in London's financial sector.
 Time-bound: Complete development and initial testing within 12 weeks.​
+
+2. 👥 Stakeholder Engagement
+
+2.1 Identified Stakeholders
+
+Financial Institutions: Potential end-users of the fraud detection system.
+Regulatory Bodies: Ensure compliance with FCA and GDPR standards.
+Data Providers: Sources of transactional data for model training and testing.
+Academic Advisors: Provide guidance on model development and evaluation.​

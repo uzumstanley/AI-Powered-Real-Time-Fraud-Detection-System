@@ -9,3 +9,11 @@ Author: Stanley Ekene Uzum
 Real-Time Fraud Detection: Develop a system capable of identifying fraudulent financial transactions as they occur.
 Resource Efficiency: Leverage BitNet b1.58 2B4T's lightweight architecture to ensure low computational overhead.
 Regulatory Compliance: Ensure adherence to UK financial regulations, including FCA guidelines and GDPR mandates.​
+
+1.2 SMART Objectives
+
+Specific: Implement a fraud detection model using BitNet b1.58 2B4T tailored for financial institutions.
+Measurable: Achieve a false positive rate below 2% and a detection accuracy above 95%.
+Achievable: Utilize existing datasets and BitNet's architecture to meet performance benchmarks.
+Relevant: Address the pressing need for efficient fraud detection in London's financial sector.
+Time-bound: Complete development and initial testing within 12 weeks.​

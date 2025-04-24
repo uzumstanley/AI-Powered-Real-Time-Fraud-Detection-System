@@ -23,52 +23,28 @@ Liam Johnson | Marketing Manager | Internal | London FinTech Bank | Low | Medium
 
 ## 🗂️ Stakeholder Analysis Summary
 
-- **High Influence & High Interest:* Sarah Thompson, James Patel, Rajesh Singh, FCA, CO
-- **Medium Influence & High Interest:* Emily Chen, Sophia Willims
-- **Medium Influence & Medium Interest:* Michael O'Conor
-- **Low Influence & Medium Interest:* Olivia Martinez, Liam Johnon
+- **High Influence & High Interest:* Sarah Thompson, James Patel, Rajesh Singh, FCA, CO
+- **Medium Influence & High Interest:* Emily Chen, Sophia Willims
+- **Medium Influence & Medium Interest:* Michael O'Conor
+- **Low Influence & Medium Interest:* Olivia Martinez, Liam Johnon
 
 ---
 
 ## 📬 Communication Plan
 
-- **Weekly Updates** Sarah Thompson, James Patel, Rajesh Sngh
-- **Bi-Weekly Meetings** Emily Chen, Michael O'Connor, Sophia Willams
-- **Monthly Reports** FCA,ICO
-- **User Feedback Sessions** Olivia Martnez
-- **Marketing Briefings** Liam Johson
+- **Weekly Updates** Sarah Thompson, James Patel, Rajesh Sngh
+- **Bi-Weekly Meetings** Emily Chen, Michael O'Connor, Sophia Willams
+- **Monthly Reports** FCA,ICO
+- **User Feedback Sessions** Olivia Martnez
+- **Marketing Briefings** Liam Johson
 
 ---
 
 ## 🔐 Data Protection Considerations
 
-- **Data Minimizatio:** Only essential stakeholder information is collected and stred.
-- **Consen:** Explicit consent obtained for storing and processing stakeholder ata.
-- **Access Contro:** Stakeholder register access restricted to authorized personel.
-- **Data Retentio:** Stakeholder data will be reviewed bi-annually and deleted upon project completion unless otherwise requred.
-- **Right to Access and Rectificatio:** Stakeholders can request access to their data and request corrections as neded.
+- **Data Minimizatio:** Only essential stakeholder information is collected and stred.
+- **Consen:** Explicit consent obtained for storing and processing stakeholder ata.
+- **Access Contro:** Stakeholder register access restricted to authorized personel.
+- **Data Retentio:** Stakeholder data will be reviewed bi-annually and deleted upon project completion unless otherwise requred.
+- **Right to Access and Rectificatio:** Stakeholders can request access to their data and request corrections as neded.
 
----
-
-## 📁 Repository Structure Suggestion
-
-``
-
-
-/AI-Fraud-Detection-BitNet
-├── README.md
-├── docs/
-│   ├── Project_Charter.md
-│   ├── Stakeholder_Register.md
-│   └── Compliance_Checklist.md
-├── data/
-├── models/
-├── src/
-└── ests/
-```
-
-
-
----
-
-Feel free to customize this register further to suit your project's specific needs. Let me know if you require assistance with subsequent phases or any other aspect of your project! 

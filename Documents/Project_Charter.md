@@ -60,7 +60,17 @@ Model Accuracy Below Expectations | Low | High | Conduct extensive testing and i
 
 Integration Challenges with Existing Systems | Medium | Medium | Develop modular APIs and ensure thorough documentation.
 
+7. Assumptions and Constraints
 
+Assumptions:
+
+Access to anonymized transactional datasets for model training.
+Availability of necessary computational resources for development and testing.​
+
+Constraints:
+
+Compliance with UK financial regulations and data protection laws.
+Project completion within the allocated budget and timeline.​
 
 
 

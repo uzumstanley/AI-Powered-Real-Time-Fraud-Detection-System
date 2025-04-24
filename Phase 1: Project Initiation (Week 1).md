@@ -49,7 +49,11 @@ Actions:
 Implement data anonymization techniques where applicable.
 Establish protocols for data storage, access, and deletion.​
 
+4. 📅 Week 1 Deliverables
 
+Project Charter: Document outlining the project's purpose, objectives, and stakeholders.
+Stakeholder Register: List of identified stakeholders with contact information and roles.
+Regulatory Compliance Checklist: Initial checklist to ensure adherence to FCA and GDPR requirements.​
 
 
 

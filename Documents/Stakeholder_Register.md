@@ -1,7 +1,3 @@
-Certainly! Here's a comprehensive **Stakeholder Register** tailored for your AI-Powered Real-Time Fraud Detection System using BitNet b1.58 2B4T. This register is designed to reflect a real-world scenario, incorporating stakeholders relevant to financial institutions in London and ensuring alignment with UK regulations.
-
----
-
 # 📄 Stakeholder_Register.md
 
 **Project Name:** AI-Powered Real-Time Fraud Detection System  

@@ -1,88 +1,124 @@
-# Hybrid RAG Application
+Certainly! Below is a comprehensive `Compliance_Checklist.md` tailored for your AI-Powered Real-Time Fraud Detection System using BitNet b1.58 2B4T. This checklist aligns with UK regulatory requirements, including the Financial Conduct Authority (FCA) guidelines and the General Data Protection Regulation (GDPR), ensuring your project adheres to necessary compliance standards.
 
-This project implements a **Hybrid Retrieval-Augmented Generation (RAG)** application using Streamlit for the user interface. It integrates OpenAI's GPT models with vector-based retrieval methods (using Chroma and BM25) to answer user queries based on a provided context. The application also evaluates the relevance of retrieved context using Athina's evaluation framework.
+---
 
-## Project Structure
+# ✅ Compliance_Checklist.md
 
-```
-hybrid_rag_app/
-├── app.py                # Main Streamlit app file
-├── context.csv           # Sample data file
-├── requirements.txt      # Python package dependencies
-```
+**Project:** AI-Powered Real-Time Fraud Detection System Using BitNet b1.58 2B4T  
+**Author:** [Your Name]  
+**Date:** April 24, 2025  
+**Version:** 1.0
 
-### 1. `requirements.txt`
-This file lists all the Python packages required for the app to function:
+---
 
-```txt
-streamlit
-langchain
-langchain-openai
-chromadb
-datasets
-pandas
-athina
-rank_bm25
-google-generativeai
-```
+## 📋 Overview
+This checklist outlines the essential compliance requirements for developing and deploying an AI-driven fraud detection system within the UK financial sectorIt encompasses adherence to the Financial Conduct Authority (FCA) regulations and the General Data Protection Regulation (GDPR), ensuring the system is both legally compliant and ethically sound
 
-### 2. `context.csv`
-This file contains the context data used to answer queries. The context is divided into chunks for efficient retrieval. Here's an example of how the file might look:
+---
 
-```csv
-text
-"MacConkey agar is a selective and differential culture medium for bacteria..."
-"zoonotic disease since around 1910, but in the 1930s knowledge was gained..."
-"medium was developed by Alfred Theodore MacConkey while working as a bacteriologist..."
-...
-```
+## 1. 🏛️ Financial Conduct Authority (FCA) Compliance
 
-### 3. `app.py`
-This is the main Streamlit app file that implements the logic for RAG, context retrieval, and evaluation. The app allows users to input queries, retrieve relevant context, generate responses using GPT models, and evaluate the context relevance.
+### 1.1 Risk Management and Governance
 
-#### Key Features:
-- **Retrieval**: Uses both vector retrieval (Chroma) and keyword-based retrieval (BM25).
-- **Generation**: Generates answers using GPT models.
-- **Evaluation**: Uses Athina's evaluation framework to assess context relevance.
+- [ ] **Establish a Risk Management Framework** Implement a comprehensive framework to identify, assess, and mitigate risks associated with fraud detectio.
 
+- [ ] **Assign Compliance Responsibilities** Designate roles and responsibilities for compliance oversight within the project tea.
 
+- [ ] **Conduct Regular Audits** Schedule periodic internal audits to ensure ongoing compliance with FCA regulation.
 
-## How to Run
+### 1.2 Fraud Detection and Prevention Measures
 
-1. **Save the Files**: Place `requirements.txt`, `app.py`, and `context.csv` in the same folder called `hybrid_rag_app`.
+- [ ] **Implement Robust Controls** Develop and integrate controls to detect and prevent fraudulent activities effectivel.
 
-2. **Install Dependencies**:
-   Open the terminal, navigate to the `hybrid_rag_app` folder, and run the following command:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- [ ] **Monitor Transaction Patterns** Continuously analyze transaction data to identify unusual patterns indicative of frau.
 
-3. **Run the Streamlit App**:
-   From the same directory, run:
-   ```bash
-   streamlit run app.py
-   ```
+- [ ] **Report Suspicious Activities** Establish protocols for reporting suspicious transactions to relevant authorities promptl.
 
-   This will start the Streamlit app and open it in your browser.
+### 1.3 Data Integrity and Security
 
-## Key Notes
+- [ ] **Ensure Data Accuracy** Implement validation checks to maintain the accuracy and integrity of data used in fraud detectio.
 
-- **API Keys**: Ensure you set up the `OPENAI_API_KEY` and `ATHINA_API_KEY` in the `secrets.toml` file or through the Streamlit Cloud secrets management. Replace the placeholders with your actual API keys.
-  
-- **Context Data**: The `context.csv` file contains the context for answering user queries. Ensure that this file is in the correct directory.
+- [ ] **Secure Data Storage** Store sensitive data securely, employing encryption and access controls to prevent unauthorized acces.
 
-- **Evaluation**: The app also evaluates the relevance of the retrieved context using the Athina framework and displays the evaluation results in a table.
+- [ ] **Maintain Audit Trails** Keep detailed records of data processing activities to facilitate audits and investigation.
 
-## Important Considerations
+---
 
-- **Caching**: The `@st.cache_resource()` decorator is used to cache the results of the `initialize_rag` function to improve performance.
+## 2. 🛡️ General Data Protection Regulation (GDPR) Compliance
 
-- **Secrets Management**: Store your API keys securely using Streamlit's secrets management to avoid hardcoding sensitive information.
+### 2.1 Lawful Basis for Data Processing
 
-## Future Enhancements
+- [ ] **Determine Legal Grounds*: Identify and document the legal basis for processing personal data, such as consent or legitimate interess.
 
-- Add more complex retrieval techniques like using FAISS or Elasticsearch for large-scale data.
-- Implement additional evaluation metrics beyond context relevancy.
-- Add a more dynamic UI with filters and advanced search options.
+- [ ] **Obtain Informed Consent*: Where applicable, secure explicit consent from individuals before processing their daa.
 
-Let me know if you have any questions or need further modifications!
+### 2.2 Data Minimization and Purpose Limitation
+
+- [ ] **Collect Necessary Data Only*: Gather only the data essential for fraud detection purposes, avoiding excessive data collectin.
+
+- [ ] **Define Data Usage Scope*: Clearly outline the specific purposes for which personal data will be used within the systm.
+
+### 2.3 Data Subject Rights
+
+- [ ] **Facilitate Access Requests*: Implement procedures to allow individuals to access their personal data upon requet.
+
+- [ ] **Enable Data Correction and Deletion*: Provide mechanisms for individuals to correct inaccuracies or request the deletion of their daa.
+
+### 2.4 Data Security Measures
+
+- [ ] **Implement Technical Safeguards*: Use encryption, pseudonymization, and other security measures to protect personal daa.
+
+- [ ] **Conduct Data Protection Impact Assessments (DPIAs)*: Evaluate the impact of data processing activities on individual privacy and implement measures to mitigate riss.
+
+---
+
+## 3. 🤖 AI Ethics and Transparency
+
+### 3.1 Algorithmic Transparency
+
+- [ ] **Document Decision-Making Processes*: Maintain clear documentation of how AI algorithms make decisions in fraud detecton.
+
+- [ ] **Provide Explanations*: Ensure the system can offer understandable explanations for its decisions to stakeholdrs.
+
+### 3.2 Bias and Fairness
+
+- [ ] **Assess for Bias*: Regularly evaluate AI models for potential biases that could lead to unfair treatment of individuls.
+
+- [ ] **Implement Fairness Measures*: Incorporate strategies to mitigate identified biases and promote equitable outcoes.
+
+### 3.3 Human Oversight
+
+- [ ] **Establish Review Processes*: Set up procedures for human review of AI decisions, especially in high-stakes scenaros.
+
+- [ ] **Empower Human Intervention*: Allow for human intervention in the AI decision-making process where necessry.
+
+---
+
+## 4. 📄 Documentation and Record-Keeping
+
+- [ ] **Maintain Comprehensive Record**: Keep detailed records of compliance efforts, including policies, procedures, and audit reslts.
+
+- [ ] **Update Documentation Regularl**: Review and update compliance documentation periodically to reflect changes in regulations or system operatons.
+
+- [ ] **Ensure Accessibilit**: Make compliance documents readily accessible to relevant stakeholders and regulatory bodies upon reqest.
+
+---
+
+## 5. 🔄 Continuous Improvement
+
+- [ ] **Monitor Regulatory Changs**: Stay informed about updates to FCA and GDPR regulations that may impact the sstem.
+
+- [ ] **Conduct Regular Trainig**: Provide ongoing training to team members on compliance requirements and best pracices.
+
+- [ ] **Solicit Feedbak**: Gather feedback from users and stakeholders to identify areas for improvement in compliance and system perforance.
+
+---
+
+## 📌 Noes
+
+- This checklist is intended to guide the development and deployment of the AI-Powered Real-Time Fraud Detection System in compliance with UK regultions
+
+- Regular reviews and updates to this checklist are recommended to ensure ongoing compliance and adaptation to regulatory canges.
+---
+
+By adhering to this compliance checklist, your project will align with the necessary legal and ethical standards, fostering trust and reliability in your AI-driven fraud 

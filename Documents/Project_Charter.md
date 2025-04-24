@@ -20,7 +20,10 @@ Financial institutions in London face escalating challenges in detecting and pre
 2.1 Purpose
 To design and implement a real-time fraud detection system that utilizes BitNet b1.58 2B4T's lightweight architecture, enabling financial institutions to promptly identify and respond to fraudulent activities with minimal computational resources.
 
-
+2.2 Justification
+Regulatory Compliance: Align with the Financial Conduct Authority (FCA) guidelines and General Data Protection Regulation (GDPR) mandates.
+Operational Efficiency: Reduce false positives and detection time, enhancing customer trust and satisfaction.
+Cost-Effectiveness: Utilize BitNet's resource-efficient model to minimize infrastructure costs.​
 
 
 

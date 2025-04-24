@@ -1,4 +1,4 @@
-# 📄 Stakeholder_Register.md
+# 📄 Stakeholder_Register
 
 **Project Name:** AI-Powered Real-Time Fraud Detection System  
 **Project Manager:** [Your Name]  

@@ -32,3 +32,12 @@ Academic Advisors: Provide guidance on model development and evaluation.​
 Week 1: Identify and list potential stakeholders.
 Week 2: Initiate contact and schedule meetings to gather requirements and feedback.
 Ongoing: Maintain regular communication to ensure alignment with stakeholder expectations.​
+
+3. 📜 Regulatory Compliance Review
+
+3.1 FCA Guidelines
+
+Objective: Ensure the system meets the Financial Conduct Authority's standards for fraud detection and reporting.
+Actions:
+Review FCA's Handbook, focusing on sections related to financial crime and fraud.
+Incorporate necessary features to facilitate compliance reporting.​

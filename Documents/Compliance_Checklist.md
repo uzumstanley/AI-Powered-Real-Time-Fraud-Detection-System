@@ -1,9 +1,9 @@
-# ✅ Compliance_Checklist.md
+# ✅ Compliance_Checklist
 
 **Project:** AI-Powered Real-Time Fraud Detection System Using BitNet b1.58 2B4T  
-**Author:** [Your Name]  
+**Author:** Stanley Ekene Uzum  
 **Date:** April 24, 2025  
-**Version:** 1.0
+**Version:** 1.0
 
 ---
 

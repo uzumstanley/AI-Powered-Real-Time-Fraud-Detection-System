@@ -20,3 +20,8 @@ MerchantID: Unique identifier for merchants, showing preferred and outlier merch
 AccountBalance: Balance in the account post-transaction, with logical correlations based on transaction type and amount.
 PreviousTransactionDate: Timestamp of the last transaction for the account, aiding in calculating transaction frequency.
 Channel: Channel through which the transaction was performed (e.g., Online, ATM, Branch).
+CustomerAge: Age of the account holder, with logical groupings based on occupation.
+CustomerOccupation: Occupation of the account holder (e.g., Doctor, Engineer, Student, Retired), reflecting income patterns.
+TransactionDuration: Duration of the transaction in seconds, varying by transaction type.
+LoginAttempts: Number of login attempts before the transaction, with higher values indicating potential anomalies.
+This dataset is ideal for data scientists, financial analysts, and researchers looking to analyze transactional patterns, detect fraud, and build predictive models for financial security applications. The dataset was designed for machine learning and pattern analysis tasks and is not intended as a primary data source for academic publications.

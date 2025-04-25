@@ -25,3 +25,11 @@ CustomerOccupation: Occupation of the account holder (e.g., Doctor, Engineer, St
 TransactionDuration: Duration of the transaction in seconds, varying by transaction type.
 LoginAttempts: Number of login attempts before the transaction, with higher values indicating potential anomalies.
 This dataset is ideal for data scientists, financial analysts, and researchers looking to analyze transactional patterns, detect fraud, and build predictive models for financial security applications. The dataset was designed for machine learning and pattern analysis tasks and is not intended as a primary data source for academic publications.
+About this file
+
+**Usage Instructions: This dataset can be used for:**
+
+. Detecting fraudulent transaction patterns
+. Building predictive models for transaction risk assessment
+. Analyzing consumer spending habits and financial behaviors
+. Developing insights into account activity trends and anomaly detection

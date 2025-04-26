@@ -32,7 +32,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 ### 1.3 Data Integrity and Security
 
-- [ ] **Ensure Data Accuracy** Implement validation checks to maintain the accuracy and integrity of data used in fraud detectio.
+- [ ] **Ensure Data Accuracy** Implement validation checks to maintain the accuracy and integrity of data used in fraud detection.
 
 - [ ] **Secure Data Storage** Store sensitive data securely, employing encryption and access controls to prevent unauthorized acces.
 

@@ -26,7 +26,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Implement Robust Controls** Develop and integrate controls to detect and prevent fraudulent activities effectivel.
 
-- [ ] **Monitor Transaction Patterns** Continuously analyze transaction data to identify unusual patterns indicative of frau.
+- [ ] **Monitor Transaction Patterns** Continuously analyze transaction data to identify unusual patterns indicative of fraud.
 
 - [ ] **Report Suspicious Activities** Establish protocols for reporting suspicious transactions to relevant authorities promptly.
 

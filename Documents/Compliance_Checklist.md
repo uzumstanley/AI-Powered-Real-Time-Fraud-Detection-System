@@ -52,7 +52,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Collect Necessary Data Only*: Gather only the data essential for fraud detection purposes, avoiding excessive data collectin.
 
-- [ ] **Define Data Usage Scope*: Clearly outline the specific purposes for which personal data will be used within the systm.
+- [ ] **Define Data Usage Scope*: Clearly outline the specific purposes for which personal data will be used within the system.
 
 ### 2.3 Data Subject Rights
 

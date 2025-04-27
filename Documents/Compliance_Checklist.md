@@ -86,7 +86,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Establish Review Processes*: Set up procedures for human review of AI decisions, especially in high-stakes scenaros.
 
-- [ ] **Empower Human Intervention*: Allow for human intervention in the AI decision-making process where necessry.
+- [ ] **Empower Human Intervention*: Allow for human intervention in the AI decision-making process where necessary.
 
 ---
 
@@ -96,13 +96,13 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Update Documentation Regularl**: Review and update compliance documentation periodically to reflect changes in regulations or system operatons.
 
-- [ ] **Ensure Accessibilit**: Make compliance documents readily accessible to relevant stakeholders and regulatory bodies upon reqest.
+- [ ] **Ensure Accessibilit**: Make compliance documents readily accessible to relevant stakeholders and regulatory bodies upon request.
 
 ---
 
 ## 5. 🔄 Continuous Improvement
 
-- [ ] **Monitor Regulatory Changs**: Stay informed about updates to FCA and GDPR regulations that may impact the sstem.
+- [ ] **Monitor Regulatory Changs**: Stay informed about updates to FCA and GDPR regulations that may impact the system.
 
 - [ ] **Conduct Regular Trainig**: Provide ongoing training to team members on compliance requirements and best pracices.
 

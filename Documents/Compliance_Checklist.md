@@ -56,7 +56,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 ### 2.3 Data Subject Rights
 
-- [ ] **Facilitate Access Requests*: Implement procedures to allow individuals to access their personal data upon requet.
+- [ ] **Facilitate Access Requests*: Implement procedures to allow individuals to access their personal data upon request.
 
 - [ ] **Enable Data Correction and Deletion*: Provide mechanisms for individuals to correct inaccuracies or request the deletion of their data.
 

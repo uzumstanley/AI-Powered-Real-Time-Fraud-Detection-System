@@ -80,7 +80,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Assess for Bias*: Regularly evaluate AI models for potential biases that could lead to unfair treatment of individuls.
 
-- [ ] **Implement Fairness Measures*: Incorporate strategies to mitigate identified biases and promote equitable outcoes.
+- [ ] **Implement Fairness Measures*: Incorporate strategies to mitigate identified biases and promote equitable outcomes.
 
 ### 3.3 Human Oversight
 

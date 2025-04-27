@@ -46,7 +46,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Determine Legal Grounds*: Identify and document the legal basis for processing personal data, such as consent or legitimate interess.
 
-- [ ] **Obtain Informed Consent*: Where applicable, secure explicit consent from individuals before processing their daa.
+- [ ] **Obtain Informed Consent*: Where applicable, secure explicit consent from individuals before processing their data.
 
 ### 2.2 Data Minimization and Purpose Limitation
 

@@ -50,7 +50,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 ### 2.2 Data Minimization and Purpose Limitation
 
-- [ ] **Collect Necessary Data Only*: Gather only the data essential for fraud detection purposes, avoiding excessive data collectin.
+- [ ] **Collect Necessary Data Only*: Gather only the data essential for fraud detection purposes, avoiding excessive data collecting.
 
 - [ ] **Define Data Usage Scope*: Clearly outline the specific purposes for which personal data will be used within the system.
 

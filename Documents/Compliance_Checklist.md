@@ -64,7 +64,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Implement Technical Safeguards*: Use encryption, pseudonymization, and other security measures to protect personal daa.
 
-- [ ] **Conduct Data Protection Impact Assessments (DPIAs)*: Evaluate the impact of data processing activities on individual privacy and implement measures to mitigate riss.
+- [ ] **Conduct Data Protection Impact Assessments (DPIAs)*: Evaluate the impact of data processing activities on individual privacy and implement measures to mitigate risk.
 
 ---
 

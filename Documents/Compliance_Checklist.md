@@ -58,11 +58,11 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Facilitate Access Requests*: Implement procedures to allow individuals to access their personal data upon requet.
 
-- [ ] **Enable Data Correction and Deletion*: Provide mechanisms for individuals to correct inaccuracies or request the deletion of their daa.
+- [ ] **Enable Data Correction and Deletion*: Provide mechanisms for individuals to correct inaccuracies or request the deletion of their data.
 
 ### 2.4 Data Security Measures
 
-- [ ] **Implement Technical Safeguards*: Use encryption, pseudonymization, and other security measures to protect personal daa.
+- [ ] **Implement Technical Safeguards*: Use encryption, pseudonymization, and other security measures to protect personal data.
 
 - [ ] **Conduct Data Protection Impact Assessments (DPIAs)*: Evaluate the impact of data processing activities on individual privacy and implement measures to mitigate risk.
 

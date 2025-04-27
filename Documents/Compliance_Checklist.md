@@ -92,7 +92,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 ## 4. 📄 Documentation and Record-Keeping
 
-- [ ] **Maintain Comprehensive Record**: Keep detailed records of compliance efforts, including policies, procedures, and audit reslts.
+- [ ] **Maintain Comprehensive Record**: Keep detailed records of compliance efforts, including policies, procedures, and audit results.
 
 - [ ] **Update Documentation Regularl**: Review and update compliance documentation periodically to reflect changes in regulations or system operatons.
 

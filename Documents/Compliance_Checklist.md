@@ -34,7 +34,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Ensure Data Accuracy** Implement validation checks to maintain the accuracy and integrity of data used in fraud detection.
 
-- [ ] **Secure Data Storage** Store sensitive data securely, employing encryption and access controls to prevent unauthorized acces.
+- [ ] **Secure Data Storage** Store sensitive data securely, employing encryption and access controls to prevent unauthorized access.
 
 - [ ] **Maintain Audit Trails** Keep detailed records of data processing activities to facilitate audits and investigation.
 

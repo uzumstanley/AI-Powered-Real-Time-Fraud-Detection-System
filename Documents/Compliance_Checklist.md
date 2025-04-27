@@ -104,7 +104,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - [ ] **Monitor Regulatory Changs**: Stay informed about updates to FCA and GDPR regulations that may impact the system.
 
-- [ ] **Conduct Regular Trainig**: Provide ongoing training to team members on compliance requirements and best pracices.
+- [ ] **Conduct Regular Trainig**: Provide ongoing training to team members on compliance requirements and best practices.
 
 - [ ] **Solicit Feedbak**: Gather feedback from users and stakeholders to identify areas for improvement in compliance and system perforance.
 
@@ -114,7 +114,7 @@ This checklist outlines the essential compliance requirements for developing and
 
 - This checklist is intended to guide the development and deployment of the AI-Powered Real-Time Fraud Detection System in compliance with UK regultions
 
-- Regular reviews and updates to this checklist are recommended to ensure ongoing compliance and adaptation to regulatory canges.
+- Regular reviews and updates to this checklist are recommended to ensure ongoing compliance and adaptation to regulatory changes.
 ---
 
 By adhering to this compliance checklist, your project will align with the necessary legal and ethical standards, fostering trust and reliability in your AI-driven fraud 

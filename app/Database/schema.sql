@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS transactions (
+    id SERIAL PRIMARY KEY,
+    account_id VARCHAR(255),
+    amount FLOAT,
+    location VARCHAR(255),
+    event_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_fraud BOOLEAN,
+    fraud_probability FLOAT,
+    user_transaction_count FLOAT,
+    user_avg_transaction_amount FLOAT,
+    deviation_from_user_avg FLOAT,
+    transaction_hour INT,
+    transaction_day_of_week INT,
+    transaction_type VARCHAR(50),
+    channel VARCHAR(50),
+    customer_age INT,
+    customer_occupation VARCHAR(100),
+    login_attempts INT,
+    account_balance FLOAT,
+    user_primary_location VARCHAR(255),
+    is_unusual_location VARCHAR(10)
+);

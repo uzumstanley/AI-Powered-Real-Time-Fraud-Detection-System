@@ -3,6 +3,10 @@
 from fastapi import APIRouter, Depends, WebSocket, BackgroundTasks
 from pydantic import BaseModel
 from datetime import datetime
+import numpy as np
+
+# Import dependencies from other modules
+from .main import get_current_user, session, insert_transaction, insert_alert, redis_client
 
 router = APIRouter()
 
@@ -19,10 +23,9 @@ async def score_transaction(
     bg: BackgroundTasks = None
 ):
     # 1. Prepare input
-    import numpy as np
     inp = np.array([tx.features], dtype=np.float32)
     # 2. Inference
-    score = session.run(None, {session.get_inputs()[0].name: inp})[0][0]  # :contentReference[oaicite:14]{index=14}
+    score = session.run(None, {session.get_inputs()[0].name: inp})[0][0]
     is_fraud = bool(score > 0.5)  # threshold
     # 3. Persist in background
     bg.add_task(insert_transaction, {
@@ -31,16 +34,16 @@ async def score_transaction(
         "is_fraud": is_fraud, "time": tx.time
     })
     if is_fraud:
-        bg.add_task(insert_alert, tx.id, score)
+        bg.add_task(insert_alert, tx.id)
     # 4. Cache latest score
-    redis_client.hset(f"user:{tx.account}", mapping={"last_score": score})  # :contentReference[oaicite:15]{index=15}
+    redis_client.hset(f"user:{tx.account}", mapping={"last_score": score})
 
     return {"score": score, "is_fraud": is_fraud}
 
 @router.post("/transactions/ingest")
 async def ingest_transaction(tx: Transaction):
     # Could enqueue to Redis Stream or Kafka here
-    redis_client.xadd("transactions", tx.dict())  # :contentReference[oaicite:16]{index=16}
+    redis_client.xadd("transactions", tx.dict())
     return {"status": "queued"}
 
 @router.websocket("/ws/alerts")

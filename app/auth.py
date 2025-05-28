@@ -1,5 +1,6 @@
 # Security: JWT Auth 
 
+import os  # Import os module
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status
@@ -21,4 +22,4 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
         raise HTTPException(
             status.HTTP_401_UNAUTHORIZED,
             detail="Invalid authentication credentials"
-        )  # :contentReference[oaicite:13]{index=13}
+        )

@@ -3,6 +3,7 @@
 I'm excited to share my latest project—a full-stack, real-time fraud detection platform built from scratch! This project demonstrates my expertise in data engineering, machine learning, backend API development, and modern frontend engineering.
 
 What I built:
+
 🔹 Data Engineering & Feature Engineering:
 * Designed a robust PostgreSQL schema to store and manage transaction data.
 * Engineered features such as transaction statistics, user behavior metrics, and categorical encodings to maximize fraud detection accuracy.

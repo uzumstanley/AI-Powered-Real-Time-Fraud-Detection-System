@@ -36,15 +36,6 @@ Key Skills Demonstrated:
 * Database modeling
 * Frontend engineering
 * Automated testing & CI/CD best practices
-Check out the video below and let me know if you'd like a demo or want to discuss how these skills can help your team!
-#MachineLearning #FastAPI #ReactJS #PostgreSQL #FraudDetection #FullStack #DataScience #Python #AI #Portfolio
-
-Feel free to DM me for a walkthrough or collaboration opportunities!
-
-Project Roadmap: https://github.com/users/uzumstanley/projects/2/views/1
-
-
-# AI-Powered Real-Time Fraud Detection System
 
 This project is an end-to-end real-time fraud detection platform featuring a machine learning backend (Python/FastAPI), a PostgreSQL database, and a modern React frontend dashboard.
 
@@ -178,12 +169,10 @@ app/model/          # Model training and conversion scripts
 ```
 
 ---
+Feel free to DM me for a walkthrough or collaboration opportunities!
 
-## 📝 License
+Project Roadmap: https://github.com/users/uzumstanley/projects/2/views/1
 
-MIT
-
----
 
 ## 🙋‍♂️ Contact
 

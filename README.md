@@ -39,3 +39,5 @@ Check out the video below and let me know if you'd like a demo or want to discus
 #MachineLearning #FastAPI #ReactJS #PostgreSQL #FraudDetection #FullStack #DataScience #Python #AI #Portfolio
 
 Feel free to DM me for a walkthrough or collaboration opportunities!
+
+Project Roadmap: https://github.com/users/uzumstanley/projects/2/views/1

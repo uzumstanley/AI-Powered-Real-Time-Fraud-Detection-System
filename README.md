@@ -158,8 +158,6 @@ The dashboard will be available at [http://localhost:3000](http://localhost:3000
 you can score the transactions with task specific data
 ```
 
----
-
 ## 🧑‍💻 Project Structure
 
 ```

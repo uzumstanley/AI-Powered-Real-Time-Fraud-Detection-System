@@ -154,6 +154,8 @@ The dashboard will be available at [http://localhost:3000](http://localhost:3000
   "user_primary_location": "Chicago",
   "is_unusual_location": "False"
 }
+
+you can score the transactions with task specific data
 ```
 
 ---

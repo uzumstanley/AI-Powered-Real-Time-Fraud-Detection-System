@@ -168,6 +168,8 @@ app/Database/       # Database schema
 app/model/          # Model training and conversion scripts
 ```
 
+Here is the youtube video link where i publish the demo of the system:  https://www.youtube.com/watch?v=YroGtcu9mrM
+
 ---
 Feel free to DM me for a walkthrough or collaboration opportunities!
 
